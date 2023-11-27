@@ -1,0 +1,91 @@
+@charset "ISO-8859-1";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;1,100;1,300;1,400;1,500;1,600;1,700&family=Nunito:wght@200;300;400&family=Playfair+Display:ital,wght@0,400;0,500;0,700;0,800;0,900;1,600&family=Poppins:wght@200;300;400;500;600;700&family=Roboto+Flex:opsz,wght@8..144,300;8..144,400;8..144,500&family=Roboto:wght@100;300;400;500&family=Ubuntu:wght@300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 168, 5);
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+body{
+    min-height: 100vh;
+    align-items: center;
+    background-color:  rgb(255, 168, 5);
+}
+.up{
+	margin-top: 80px;
+}
+h2{
+	text-align: center;
+	
+}
+span{
+	color: white;
+	font-size: 45px;
+}
+
+.index{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+    justify-content: center; /* Horizontally center div2 */
+    align-items: center; 
+    background-color:  rgb(255, 168, 5);
+    margin-top: -100px;
+}
+
+
+.indexdetails{
+	width: 600px;
+	height: auto;
+    background-color: rgb(255, 255, 255);
+    justify-content: center; /* Horizontally center div2 */
+    align-items: center;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+.indexdetails h2{
+	text-align: center;
+}
+.indexdetails h1{
+	text-align: center;
+	width: 100%;
+	background-color: white;
+	margin-top: 40px;
+}
+button{
+	align-items: center;
+}
+
+
+.btn{
+  background-image: linear-gradient(-180deg, #37AEE2 0%, rgb(128, 0, 255) 100%);
+  border-radius: 2rem;
+  color: #FFFFFF;
+  font-size: 16px;
+  padding: 1rem 1.75rem;
+  width: 80%;
+  border: 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 60px;
+
+}
+.indexdetails h4{
+	text-align: center;
+	align-items: center;
+	background-color: white;
+	margin-top: 20px;
+}
+
+.btn-43:hover {
+  background-color: gray;
+}
+
+@media (min-width: 768px) {
+  .btn-43 {
+    padding: 1rem 2rem;
+  }
+}
